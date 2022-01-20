@@ -14,8 +14,12 @@ public class HandControllerScript : MonoBehaviour
     private void Awake()
     {
         handAnimator = GetComponent<Animator>();
-        
+
     }
+ 
+
+
+
 
     private void OnEnable()
     {
@@ -38,4 +42,8 @@ public class HandControllerScript : MonoBehaviour
         gripInputAction.action.performed -= GripPressed;
         triggerInputAction.action.performed -= TriggerPressed;
     }
+
+
+
+
 }
