@@ -8,20 +8,21 @@ public class gamemanager : MonoBehaviour
     public bool Holzpickedup = false;
     public GameObject pickaxe;
     private bool noPickaxe = true;
+    public GameObject character;
+    private Transform spawnPos;
 
-
-    // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Hello from the other side");
+        spawnPos = character.transform;
     }
 
-    // Update is called once per frame
     void Update()
     {
+
         if (Eisenpickedup && Holzpickedup && noPickaxe)
         {
-            Instantiate(pickaxe);
+            Instantiate(pickaxe, spawnPos.position, Quaternion.identity);
             noPickaxe = false;
         }
     }
