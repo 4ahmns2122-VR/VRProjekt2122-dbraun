@@ -18,7 +18,7 @@ public class door : MonoBehaviour
     {
         if (Gamemanager.Eisenpickedup && Gamemanager.Holzpickedup)
         {
-            Debug.Log("door open");
+
         }
         
     }
