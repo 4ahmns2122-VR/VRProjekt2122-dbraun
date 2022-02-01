@@ -47,7 +47,6 @@ public class holzstamm : MonoBehaviour
         if (other.gameObject.tag == "axt")
         {
             chop1.Play(0);
-            Debug.Log("Holz geht");
             timeshit++;
 
         }
