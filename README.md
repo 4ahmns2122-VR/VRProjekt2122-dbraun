@@ -5,6 +5,9 @@
 
 You are trapped in an ice cave and have to assemble a pickaxe to dig your way free. There are sounds leading you to each puzzle.
 
+## Screenshots:
+![Screenshot1](https://user-images.githubusercontent.com/72389971/152344795-c503b882-2278-456f-8e8a-2d519c628c4e.JPG)
+
 ## MVP:
 - Ice cave environment.
 - Sounds leading to the puzzles.
