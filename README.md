@@ -1,27 +1,24 @@
-# XRInteractionToolkitTemplate
+Project description:
 
-### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+You visit an Advent market, but you can't leave it until you complete the 2 tasks. The City, which is build like a labyrinth, is based in a Winter-Night Setting. By audibly advertising the stalls, the player is lured through the maze. At the end the door of the advent market is open and the player can leave it again.
 
-### Development platform: 
-OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
+MVP:
+-	Eishöhlen Umgebung.
+-	Sounds die zu den Rätseln führen.
+-	Spitzhacke aus zwei Teilen:
+1.	Holzstiel wird durch Holzhacken-Rätsel gegeben.
+2.	Metallspitz wird durch Schneeball-Rätsel gegeben. 
+-	Den Ausgang hackt man mit der Spitzhacke auf.
+Rätsel:
+-	Holzhacken-Rätsel: Man muss mit einer Axt auf ein Holzstück hauen und bekommt nach 2-3 Schlägen einen Holzstiel raus.
+-	Schneeball-Rätsel: Der Metallspitz ist an der Kante eines Eissockels. Man muss ihn von dort mit einem Schneeball herunterwerfen.
 
-## Software/Hardware Requirements: 
-Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
+Sounds: 
+-	Sounds, die einem zu den Rätseln führen (gehacktes Holz, Metall gegen Eis)
+-	Eis Sound Atmos (Eis kracht, dumpfes Eisgrollen, Wassertropfen)
+-	Spitzhacke gegen Eiswand Sound
 
-When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
-
-### Target platform: 
-Oculus Rift/S; Quest/2
-
-### Visuals: 
-Screenshots (concept and experience), Video
-
-### Third party material: 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
-
-### Limitations/Problems: 
-
-Copyright by dbraun
+Meilensteine:
+-	25. November: Unity Build auf VR und Character Movement.
+-	23. Dezember: 1 Minigames spielbar und Grafisch 40% fertig. Sounds für mindestens eines implementiert.
+-	20. Jänner: 2 Minigames spielbar und Grafisch fertig. Sounds für alle implementiert. 
