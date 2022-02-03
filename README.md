@@ -1,24 +1,37 @@
-Project description:
+# VR Cave Game
 
-Man ist in einer Eishöhle gefangen und muss sich eine Spitzhacke zusammenbauen um sich frei zu graben.
 
-MVP:
--	Eishöhlen Umgebung.
--	Sounds die zu den Rätseln führen.
--	Spitzhacke aus zwei Teilen:
-1.	Holzstiel wird durch Holzhacken-Rätsel gegeben.
-2.	Metallspitz wird durch Schneeball-Rätsel gegeben. 
--	Den Ausgang hackt man mit der Spitzhacke auf.
-Rätsel:
--	Holzhacken-Rätsel: Man muss mit einer Axt auf ein Holzstück hauen und bekommt nach 2-3 Schlägen einen Holzstiel raus.
--	Schneeball-Rätsel: Der Metallspitz ist an der Kante eines Eissockels. Man muss ihn von dort mit einem Schneeball herunterwerfen.
+## Project description:
 
-Sounds: 
--	Sounds, die einem zu den Rätseln führen (gehacktes Holz, Metall gegen Eis)
--	Eis Sound Atmos (Eis kracht, dumpfes Eisgrollen, Wassertropfen)
--	Spitzhacke gegen Eiswand Sound
+You are trapped in an ice cave and have to assemble a pickaxe to dig your way free.
 
-Meilensteine:
--	25. November: Unity Build auf VR und Character Movement.
--	23. Dezember: 1 Minigames spielbar und Grafisch 40% fertig. Sounds für mindestens eines implementiert.
--	20. Jänner: 2 Minigames spielbar und Grafisch fertig. Sounds für alle implementiert. 
+## MVP:
+- Ice cave environment.
+- Sounds leading to the puzzles.
+- Two-piece pickaxe:
+1. Wooden stick is given by chopping wood puzzles.
+2. Metal tip is given by snowball puzzles.
+- The exit is hacked open with the pickaxe.
+
+## Puzzles:
+- Wood chopping puzzle: you have to hit a piece of wood with an axe and after 3 hits you get a wooden stick.
+- Snowball Puzzle: The metal tip is on the edge of an ice pedestal. You have to throw him down from there with a snowball.
+
+## Milestones:
+- November 25: Unity Build on VR and Character Movement.
+- December 23rd: 1 minigame playable and graphically 40% done. Sounds implemented for at least one.
+- January 20th: 2 minigames playable and graphically finished. Sounds implemented for everyone.
+
+Software/Hardware Requirements:
+Oculus hardware requirements https://support.oculus.com/248749509016567/ You need a VR headset in this case an Oculus Rift/Quest/Quest2
+
+## Packages:
+Unity UI 1.0.0
+Version Control 1.9.0
+Visual Studio Code Editor 1.2.4
+Visual Studio Editor 2.0.11
+XR Interaction Toolkit 1.0.0-pre.8
+XR Plugin Management 4.2.0
+Test Framework 1.1.29
+TextMeshPro 3.0.6
+
