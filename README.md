@@ -1,6 +1,6 @@
 Project description:
 
-You visit an Advent market, but you can't leave it until you complete the 2 tasks. The City, which is build like a labyrinth, is based in a Winter-Night Setting. By audibly advertising the stalls, the player is lured through the maze. At the end the door of the advent market is open and the player can leave it again.
+Man ist in einer Eishöhle gefangen und muss sich eine Spitzhacke zusammenbauen um sich frei zu graben.
 
 MVP:
 -	Eishöhlen Umgebung.
