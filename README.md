@@ -3,7 +3,7 @@
 
 ## Project description:
 
-You are trapped in an ice cave and have to assemble a pickaxe to dig your way free.
+You are trapped in an ice cave and have to assemble a pickaxe to dig your way free. There are sounds leading you to each puzzle.
 
 ## MVP:
 - Ice cave environment.
@@ -22,8 +22,9 @@ You are trapped in an ice cave and have to assemble a pickaxe to dig your way fr
 - December 23rd: 1 minigame playable and graphically 40% done. Sounds implemented for at least one.
 - January 20th: 2 minigames playable and graphically finished. Sounds implemented for everyone.
 
-Software/Hardware Requirements:
-Oculus hardware requirements https://support.oculus.com/248749509016567/ You need a VR headset in this case an Oculus Rift/Quest/Quest2
+## Software/Hardware Requirements:
+Oculus hardware requirements https://support.oculus.com/248749509016567/
+You need a VR headset in this case an Oculus Rift/Quest/Quest2
 
 ## Packages:
 Unity UI 1.0.0
