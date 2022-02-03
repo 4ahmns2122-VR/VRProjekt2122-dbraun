@@ -17,8 +17,10 @@ You are trapped in an ice cave and have to assemble a pickaxe to dig your way fr
 - The exit is hacked open with the pickaxe.
 
 ## Puzzles:
-- Wood chopping puzzle: you have to hit a piece of wood with an axe and after 3 hits you get a wooden stick.
-- Snowball Puzzle: The metal tip is on the edge of an ice pedestal. You have to throw him down from there with a snowball.
+- Wood chopping puzzle: you have to hit a piece of wood with an axe and after 3 hits it is destroyed and you have completed the first puzzle.
+- Snowball Puzzle: The metal tip is on the edge of an ice pedestal. You have to throw him down from there with a snowball nad then you can grab it.
+- When both Puzzles are completed, a pickaxe will spawn at the players location. 
+- With this pickaxe you can destroy the wall blocking the exit.
 
 ## Milestones:
 - November 25: Unity Build on VR and Character Movement.
